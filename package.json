@@ -1,0 +1,23 @@
+{
+  "name": "okdp-meeting-notes",
+  "version": "1.0.0",
+  "description": "OKDP Meeting Notes",
+  "private": true,
+  "scripts": {
+    "validate": "node scripts/validate-frontmatter.js"
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "glob": "^13.0.6",
+    "gray-matter": "^4.0.3"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OKDP/meeting-notes"
+  },
+  "license": "Apache-2.0"
+}
